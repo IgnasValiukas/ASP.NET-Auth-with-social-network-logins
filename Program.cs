@@ -13,8 +13,8 @@ builder.Services.AddAuthentication().AddGoogle(googleOptions =>
 
 builder.Services.AddAuthentication().AddFacebook(opt =>
 {
-    opt.ClientId = "959670169011796";
-    opt.ClientSecret = "1ea076d01188dcd3a25e614d172f8059";
+    opt.ClientId = "numbers";
+    opt.ClientSecret = "numbers";
 });
 
 // Add services to the container.
